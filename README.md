@@ -80,7 +80,7 @@ bundle install
 To run the project, navigate to the project directory and execute the following command:
 
 ```sh
-  ruby morse_tranlator.rb
+  ruby my_list.rb
 ```
 
 ### Run tests
