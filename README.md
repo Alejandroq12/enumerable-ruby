@@ -1,15 +1,15 @@
-## Morse Code Decoder
+## Enumerables
 
 <a name="readme-top"></a>
 <div align="center">
     <img src="morse.png" alt="logo" width="700"  height="auto" />
   <br/>
-  <h3><b>Morse Code Decoder</b></h3>
+  <h3><b>Enumerables</b></h3>
 </div>
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Morse Code Decoder Morse Code Ruby](#-morse-code-decoder-morse-code-ruby)
+- [📖 Enumerables Enumerables](#-enumerables-enumerables)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -25,15 +25,9 @@
   - [🤝 Contributing ](#-contributing-)
   - [📝 License ](#-license-)
 
-# 📖 Morse Code Decoder <a name="about-project">Morse Code Ruby</a>
+# 📖 Enumerables <a name="about-project">Enumerables</a>
 
-**Morse Code Decoder** is a Morse Code decoder written in Ruby. Its primary goal is to decode Morse Code messages into English text.
-
-Description:
-
-During a seaside vacation, numerous old bottles containing parchments with Morse code messages were discovered. This led to the creation of this Ruby program, which is designed to automate the process of Morse code decryption.
-
-The program can convert a string of Morse code into English. It understands Morse code representations for all alphabets (both lower case and upper case), and numbers from 0-9.
+This project shows a custom Ruby class, MyList, and a module, MyEnumerable, to simulate functionality of some built-in Enumerable methods. It provides a practical understanding of how classes, modules, and enumerable methods interact in Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,10 +41,11 @@ The program can convert a string of Morse code into English. It understands Mors
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-- **Converts a single Morse code character into its corresponding English character.**
-- **Decodes an entire Morse code word into its corresponding English word..**
-- **Decodes an entire Morse code message into its corresponding English sentence.**
+- **Custom Class and Module:** Implementation of a custom Ruby class, `MyList`, and a module, `MyEnumerable`.
+- **Custom Enumerable Methods:** `MyEnumerable` module mimics the functionality of Ruby's built-in Enumerable methods `#all?`, `#any?`, and `#filter`.
+- **Iterable Custom Class:** Instances of `MyList` are iterable with the custom enumerable methods, thanks to an `#each` method in the `MyList` class.
+- **Understanding Ruby Internals:** The project offers practical insights into the behavior of Ruby Enumerable methods.
+- **Test Cases:** Test cases are provided to validate the functionality of the custom enumerable methods.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +64,7 @@ In order to run this project you need:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Alejandroq12/morse-decoder.git
+  git clone https://github.com/Alejandroq12/enumerable-ruby.git
 ```
 
 ### Install
